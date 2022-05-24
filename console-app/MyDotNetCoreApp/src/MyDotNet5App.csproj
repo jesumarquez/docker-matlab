@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="MyMatrixFunctions">
+      <HintPath>MyMagicModel.dll</HintPath>
+	  <!--Path to .NET Assembly created by Library Compiler app-->
+    </Reference>
+    <Reference Include="MWArray">
+      <HintPath>MWArray.dll</HintPath>
+	  <!--Path to MWArray.dll in the MATLAB Runtime-->
+    </Reference>
+  </ItemGroup>
+</Project>
